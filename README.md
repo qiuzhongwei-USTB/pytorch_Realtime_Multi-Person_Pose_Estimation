@@ -25,11 +25,11 @@
 - `python demo/web_demo.py` to run the web demo.
 
 ## Evalute
-- `python evaluate/evaluation.py` to evaluate the model on [images seperated by the original author](https://github.com/CMU-Perceptual-Computing-Lab/caffe_rtpose/blob/master/image_info_val2014_1k.txt)
-- It should have `mAP 0.598` for the original rtpose, original repo have `mAP 0.577` because we do left and right flip for heatmap and PAF for the evaluation. 
+- `python evaluate/evaluation.py` to evaluate the model on [images seperated by the rtpose author](https://github.com/CMU-Perceptual-Computing-Lab/caffe_rtpose/blob/master/image_info_val2014_1k.txt)
+- It should have `mAP 0.598` for the rtpose, previous rtpose have `mAP 0.577` because we do left and right flip for heatmap and PAF for the evaluation. 
 c
-### Pretrained Models & Performance on the dataset split by the original rtpose.
-[rtpose original](https://www.dropbox.com/s/ae071mfm2qoyc8v/pose_model.pth?dl=0), [trained from scratch](https://www.dropbox.com/s/5v654d2u65fuvyr/pose_model_scratch.pth?dl=0) (Notice the preprocessing is different for different models)
+### Pretrained Models & Performance on the dataset split by the rtpose.
+[rtpose](https://www.dropbox.com/s/ae071mfm2qoyc8v/pose_model.pth?dl=0), [trained from scratch](https://www.dropbox.com/s/5v654d2u65fuvyr/pose_model_scratch.pth?dl=0) (Notice the preprocessing is different for different models)
 
 |   Reported on paper (VGG19)| mAP in this repo (VGG19)| Trained from scratch in this repo| 
 |  :------:     | :---------: | :---------: |
