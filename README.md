@@ -1,8 +1,5 @@
-# pytorch_Realtime_Multi-Person_Pose_Estimation
-This is a pytorch version of Realtime_Multi-Person_Pose_Estimation, origin code is here https://github.com/ZheC/Realtime_Multi-Person_Pose_Estimation 
-
 ## Introduction
-Code repo for reproducing 2017 CVPR Oral paper using pytorch.  
+ pytorch version of Multi-Person_Pose_Estimation
 
 ## Results
 
@@ -62,15 +59,8 @@ c
 All contributions are welcomed. If you encounter any issue (including examples of images where it fails) feel free to open an issue.
 
 ## Citation
-Please cite the paper in your publications if it helps your research:    
-
-    @InProceedings{cao2017realtime,
-      title = {Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields},
-      author = {Zhe Cao and Tomas Simon and Shih-En Wei and Yaser Sheikh},
-      booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-      year = {2017}
-      }
-      
+Please cite the paper in your publications if it helps your research: 
+   
     @INPROCEEDINGS{8486591, 
     author={H. Wang and W. P. An and X. Wang and L. Fang and J. Yuan}, 
     booktitle={2018 IEEE International Conference on Multimedia and Expo (ICME)}, 
@@ -80,3 +70,10 @@ Please cite the paper in your publications if it helps your research:
     number={}, 
     pages={1-6}, 
     month={July},}
+    
+    @InProceedings{cao2017realtime,
+      title = {Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields},
+      author = {Zhe Cao and Tomas Simon and Shih-En Wei and Yaser Sheikh},
+      booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+      year = {2017}
+      }
