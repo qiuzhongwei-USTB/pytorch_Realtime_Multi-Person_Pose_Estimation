@@ -62,7 +62,7 @@ All contributions are welcomed. If you encounter any issue (including examples o
 Please cite the paper in your publications if it helps your research: 
    
     @INPROCEEDINGS{8486591, 
-    author={H. Wang and W. P. An and X. Wang and L. Fang and J. Yuan}, 
+    author={Haoqian Wang and Wang Peng An and X. Wang and L. Fang and J. Yuan}, 
     booktitle={2018 IEEE International Conference on Multimedia and Expo (ICME)}, 
     title={Magnify-Net for Multi-Person 2D Pose Estimation}, 
     year={2018}, 
